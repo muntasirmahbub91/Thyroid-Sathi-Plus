@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thyroid Shati — Thyroid Companion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'hind-siliguri': ['"Hind Siliguri"', 'sans-serif'],
+            },
+            colors: {
+              'thy-bg': '#F6F4EF',
+              'thy-surface': '#FFFFFF',
+              'thy-ink': '#1F2937',
+              'thy-ink-muted': '#6B7280',
+              'thy-accent': '#6FAFA6',
+              'thy-accent-strong': '#5A9C93',
+              'thy-accent-weak': '#E0EFEC',
+              'thy-line': '#E7E5E4',
+              'thy-disabled-bg': '#E9E6E2',
+              'thy-disabled-text': '#CBD5D1',
+            },
+            borderRadius: {
+              'xl': '12px',
+              '2xl': '16px',
+              '3xl': '24px',
+            },
+            boxShadow: {
+              'thy-card': '0 8px 28px rgba(0,0,0,.06)',
+              'thy-emphasis': '0 6px 16px rgba(0,0,0,.15)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Hide number input arrows (spinners) in Chrome, Safari, Edge, Opera */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      /* Hide number input arrows (spinners) in Firefox */
+      input[type=number] {
+        -moz-appearance: textfield;
+      }
+      
+      input, select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+      
+      .focus-ring {
+        transition: box-shadow .2s ease;
+      }
+      .focus-ring:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(111,175,166,.18);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-thy-bg text-thy-ink">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,465 @@
+
+{
+  "ui": {
+    "en": {
+      "appName": "Thyroid Food Guide",
+      "searchPlaceholder": "Search foods...",
+      "viewAsGrid": "Grid View",
+      "viewAsList": "List View",
+      "categories": {
+        "All": "All",
+        "Grains": "Grains",
+        "Lentils & Legumes": "Lentils & Legumes",
+        "Fish & Seafood": "Fish & Seafood",
+        "Meat & Poultry": "Meat & Poultry",
+        "Soy & Alternatives": "Soy & Alternatives",
+        "Vegetables": "Vegetables",
+        "Leafy Greens": "Leafy Greens",
+        "Dairy & Eggs": "Dairy & Eggs",
+        "Oils & Spices": "Oils & Spices"
+      },
+      "statusLabels": {
+        "goitrogen_present": "Goitrogen present"
+      }
+    },
+    "bn": {
+      "appName": "থাইরয়েড ফুড গাইড",
+      "searchPlaceholder": "খাবার খুঁজুন...",
+      "viewAsGrid": "গ্রিড ভিউ",
+      "viewAsList": "লিস্ট ভিউ",
+      "categories": {
+        "All": "সব",
+        "Grains": "শস্য",
+        "Lentils & Legumes": "ডাল",
+        "Fish & Seafood": "মাছ ও সামুদ্রিক",
+        "Meat & Poultry": "মাংস",
+        "Soy & Alternatives": "সয়া ও বিকল্প",
+        "Vegetables": "সবজি",
+        "Leafy Greens": "শাক",
+        "Dairy & Eggs": "দুধ ও ডিম",
+        "Oils & Spices": "তেল ও মশলা"
+      },
+      "statusLabels": {
+        "goitrogen_present": "গয়ট্রোজেন উপস্থিত"
+      }
+    }
+  },
+  "foods": [
+    {
+      "id": 1, "category": "Grains", "image": "/images/aromatic-rice-chinigurakalojira.png",
+      "name": {"en": "Rice", "bn": "ভাত"},
+      "line1": {"en": "This rice gives quick energy because it is mostly starch.", "bn": "এই চাল দ্রুত শক্তি জোগায় কারণ এতে বেশিরভাগই শ্বেতসার।"},
+      "line2": {"en": "But it has very little fiber and few vitamins.", "bn": "কিন্তু এতে খুব কম ফাইবার এবং ভিটামিন রয়েছে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 2, "category": "Grains", "image": "/images/whole-wheat-roti-ata-ruti.png",
+      "name": {"en": "Whole-wheat roti", "bn": "আটার রুটি"},
+      "line1": {"en": "This bread has fiber that helps your tummy work well.", "bn": "এই রুটিতে ফাইবার আছে যা পেট ভালো রাখতে সাহায্য করে।"},
+      "line2": {"en": "But it has phytates that can slow mineral absorption a little.", "bn": "কিন্তু এতে ফাইটেট রয়েছে যা খনিজ শোষণ কিছুটা কমাতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 3, "category": "Grains", "image": "/images/paratha-porota.png",
+      "name": {"en": "Paratha", "bn": "পরোটা"},
+      "line1": {"en": "It gives a lot of energy from carbohydrates and fat.", "bn": "এটি কার্বোহাইড্রেট এবং ফ্যাট থেকে প্রচুর শক্তি জোগায়।"},
+      "line2": {"en": "But it can be high in total fat and calories.", "bn": "কিন্তু এতে মোট ফ্যাট এবং ক্যালোরি বেশি থাকতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 4, "category": "Grains", "image": "/images/semolina-suji.png",
+      "name": {"en": "Semolina", "bn": "সুজি"},
+      "line1": {"en": "It gives easy energy and some protein.", "bn": "এটি সহজে শক্তি এবং কিছু প্রোটিন দেয়।"},
+      "line2": {"en": "But it is low in fiber and can raise blood sugar faster.", "bn": "কিন্তু এতে ফাইবার কম এবং এটি রক্তে শর্করার মাত্রা দ্রুত বাড়াতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 5, "category": "Grains", "image": "/images/puffed-rice-muri.png",
+      "name": {"en": "Puffed rice", "bn": "মুড়ি"},
+      "line1": {"en": "It is very light and gives quick energy.", "bn": "এটি খুব হালকা এবং দ্রুত শক্তি জোগায়।"},
+      "line2": {"en": "But it has almost no protein, fiber, or vitamins.", "bn": "কিন্তু এতে প্রায় কোনো প্রোটিন, ফাইবার বা ভিটামিন নেই।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 6, "category": "Grains", "image": "/images/flattened-rice-chira.png",
+      "name": {"en": "Flattened rice", "bn": "চিঁড়ে"},
+      "line1": {"en": "It is a simple source of carbohydrate for energy.", "bn": "এটি শক্তির জন্য কার্বোহাইড্রেটের একটি সহজ উৎস।"},
+      "line2": {"en": "But it is low in protein and fiber by itself.", "bn": "কিন্তু নিজে থেকে এতে প্রোটিন এবং ফাইবার কম।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 7, "category": "Lentils & Legumes", "image": "/images/masoor-dal.png",
+      "name": {"en": "Masoor dal", "bn": "মসুর ডাল"},
+      "line1": {"en": "It gives plant protein, iron, and folate.", "bn": "এটি উদ্ভিদ-ভিত্তিক প্রোটিন, আয়রন এবং ফোলেট সরবরাহ করে।"},
+      "line2": {"en": "But natural compounds can make iron harder to absorb.", "bn": "কিন্তু প্রাকৃতিক যৌগ আয়রন শোষণ কঠিন করে তুলতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 8, "category": "Lentils & Legumes", "image": "/images/mung-dal.png",
+      "name": {"en": "Mung dal", "bn": "মুগ ডাল"},
+      "line1": {"en": "It has protein and soluble fiber that help fullness.", "bn": "এতে প্রোটিন এবং দ্রবণীয় ফাইবার আছে যা পেট ভরা রাখতে সাহায্য করে।"},
+      "line2": {"en": "But it also has phytates and gas-forming carbs.", "bn": "কিন্তু এতে ফাইটেট এবং গ্যাস সৃষ্টিকারী কার্বোহাইড্রেটও আছে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 9, "category": "Lentils & Legumes", "image": "/images/chana-dal.png",
+      "name": {"en": "Chana dal", "bn": "ছোলার ডাল"},
+      "line1": {"en": "It is rich in protein and fiber and has a low sugar load.", "bn": "এটি প্রোটিন এবং ফাইবারে সমৃদ্ধ এবং এর গ্লাইসেমিক লোড কম।"},
+      "line2": {"en": "But it can cause gas in some people.", "bn": "কিন্তু এটি কিছু মানুষের জন্য গ্যাস তৈরি করতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 10, "category": "Lentils & Legumes", "image": "/images/urad-mashkalai-dal.png",
+      "name": {"en": "Urad", "bn": "মাষকলাই ডাল"},
+      "line1": {"en": "It provides protein and folate.", "bn": "এটি প্রোটিন এবং ফোলেট সরবরাহ করে।"},
+      "line2": {"en": "But it has more antinutrients and purines than some lentils.", "bn": "কিন্তু কিছু ডালের চেয়ে এতে বেশি অ্যান্টি-নিউট্রিয়েন্ট এবং পিউরিন থাকে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 11, "category": "Lentils & Legumes", "image": "/images/whole-chickpeas-boot-chola.png",
+      "name": {"en": "Whole chickpeas", "bn": "ছোলা"},
+      "line1": {"en": "They give protein, fiber, iron, and zinc.", "bn": "এগুলো প্রোটিন, ফাইবার, আয়রন এবং জিঙ্ক সরবরাহ করে।"},
+      "line2": {"en": "But phytates can lower mineral absorption.", "bn": "কিন্তু ফাইটেট খনিজ শোষণ কমাতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 12, "category": "Fish & Seafood", "image": "/images/hilsa-ilish.png",
+      "name": {"en": "Hilsa", "bn": "ইলিশ"},
+      "line1": {"en": "It has healthy omega-3 fats and vitamin D.", "bn": "এতে স্বাস্থ্যকর ওমেগা-৩ ফ্যাট এবং ভিটামিন ডি রয়েছে।"},
+      "line2": {"en": "But it is high in total fat and calories.", "bn": "কিন্তু এতে মোট ফ্যাট এবং ক্যালোরি বেশি।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 13, "category": "Fish & Seafood", "image": "/images/rohu-rui.png",
+      "name": {"en": "Rohu", "bn": "রুই"},
+      "line1": {"en": "It gives lean protein and B-vitamins.", "bn": "এটি লিন প্রোটিন এবং বি-ভিটামিন সরবরাহ করে।"},
+      "line2": {"en": "But it has less omega-3 than fatty sea fish.", "bn": "কিন্তু তৈলাক্ত সামুদ্রিক মাছের চেয়ে এতে ওমেগা-৩ কম।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 14, "category": "Fish & Seafood", "image": "/images/catla-katla.png",
+      "name": {"en": "Catla", "bn": "কাতলা"},
+      "line1": {"en": "It is a good source of protein.", "bn": "এটি প্রোটিনের একটি ভালো উৎস।"},
+      "line2": {"en": "But fat amount changes by cut, and the belly has more fat.", "bn": "কিন্তু কাটার উপর ফ্যাটের পরিমাণ নির্ভর করে, এবং পেটে বেশি ফ্যাট থাকে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 15, "category": "Fish & Seafood", "image": "/images/koi.png",
+      "name": {"en": "Koi", "bn": "কৈ"},
+      "line1": {"en": "It gives lean protein and some calcium if small bones are eaten.", "bn": "ছোট কাঁটা খেলে এটি লিন প্রোটিন এবং কিছু ক্যালসিয়াম সরবরাহ করে।"},
+      "line2": {"en": "But it has limited omega-3 fats.", "bn": "কিন্তু এতে ওমেগা-৩ ফ্যাট সীমিত।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 16, "category": "Fish & Seafood", "image": "/images/pangas-pangasius.png",
+      "name": {"en": "Pangas", "bn": "পাঙ্গাশ"},
+      "line1": {"en": "It is an affordable source of protein.", "bn": "এটি প্রোটিনের একটি সাশ্রয়ী মূল্যের উৎস।"},
+      "line2": {"en": "But it is low in omega-3 and higher in omega-6.", "bn": "কিন্তু এতে ওমেগা-৩ কম এবং ওমেগা-৬ বেশি।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 17, "category": "Fish & Seafood", "image": "/images/tilapia-telapia.png",
+      "name": {"en": "Tilapia", "bn": "তেলাপিয়া"},
+      "line1": {"en": "It is a lean fish with low saturated fat.", "bn": "এটি কম স্যাচুরেটেড ফ্যাটযুক্ত একটি লিন মাছ।"},
+      "line2": {"en": "But it has more omega-6 than omega-3.", "bn": "কিন্তু এতে ওমেগা-৩-এর চেয়ে ওমেগা-৬ বেশি।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 18, "category": "Fish & Seafood", "image": "/images/prawn-shrimp-chingri.png",
+      "name": {"en": "Prawn", "bn": "চিংড়ি"},
+      "line1": {"en": "It is rich in iodine, selenium, and protein.", "bn": "এটি আয়োডিন, সেলেনিয়াম এবং প্রোটিনে সমৃদ্ধ।"},
+      "line2": {"en": "But it has more dietary cholesterol than many fish.", "bn": "কিন্তু অনেক মাছের চেয়ে এতে ডায়েটারি কোলেস্টেরল বেশি।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 19, "category": "Meat & Poultry", "image": "/images/chicken-murgi.png",
+      "name": {"en": "Chicken", "bn": "মুরগি"},
+      "line1": {"en": "It provides high-quality protein and B-vitamins.", "bn": "এটি উচ্চ মানের প্রোটিন এবং বি-ভিটামিন সরবরাহ করে।"},
+      "line2": {"en": "But the skin adds extra saturated fat.", "bn": "কিন্তু চামড়া অতিরিক্ত স্যাচুরেটেড ফ্যাট যোগ করে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 20, "category": "Meat & Poultry", "image": "/images/beef-gorur-mangsho.png",
+      "name": {"en": "Beef", "bn": "গরুর মাংস"},
+      "line1": {"en": "It gives heme iron, vitamin B12, and zinc.", "bn": "এটি হিম আয়রন, ভিটামিন বি১২ এবং জিঙ্ক সরবরাহ করে।"},
+      "line2": {"en": "But some cuts have a lot of saturated fat.", "bn": "কিন্তু কিছু অংশে প্রচুর স্যাচুরেটেড ফ্যাট থাকে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 21, "category": "Meat & Poultry", "image": "/images/mutton-goat-khashir-mangsho.png",
+      "name": {"en": "Mutton", "bn": "খাসির মাংস"},
+      "line1": {"en": "It supplies protein and iron.", "bn": "এটি প্রোটিন এবং আয়রন সরবরাহ করে।"},
+      "line2": {"en": "But it usually has more saturated fat than chicken.", "bn": "কিন্তু সাধারণত মুরগির চেয়ে এতে বেশি স্যাচুরেটেড ফ্যাট থাকে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 22, "category": "Meat & Poultry", "image": "/images/duck-hash.png",
+      "name": {"en": "Duck", "bn": "হাঁস"},
+      "line1": {"en": "It provides protein, iron, and B-vitamins.", "bn": "এটি প্রোটিন, আয়রন এবং বি-ভিটামিন সরবরাহ করে।"},
+      "line2": {"en": "But it is high in fat, especially under the skin.", "bn": "কিন্তু এতে ফ্যাট বেশি, বিশেষ করে চামড়ার নিচে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 23, "category": "Soy & Alternatives", "image": "/images/soya-chunks-soya-bori.png",
+      "name": {"en": "Soya chunks", "bn": "সয়া বড়ি"},
+      "line1": {"en": "They give a lot of plant protein and iron.", "bn": "এগুলো প্রচুর পরিমাণে উদ্ভিদ প্রোটিন এবং আয়রন দেয়।"},
+      "line2": {"en": "But soy can lower thyroid pill absorption if taken together.", "bn": "কিন্তু সয়া একসাথে খেলে থাইরয়েডের ওষুধের শোষণ ক্ষমতা কমাতে পারে।"},
+      "line3": {"en": "It's best to wait 4 hours between eating soy and taking thyroid pills.", "bn": "সয়া খাওয়ার এবং থাইরয়েডের ওষুধ খাওয়ার মধ্যে ৪ ঘন্টা অপেক্ষা করা ভাল।"},
+      "status": null
+    },
+    {
+      "id": 24, "category": "Vegetables", "image": "/images/potato-alu.png",
+      "name": {"en": "Potato", "bn": "আলু"},
+      "line1": {"en": "It gives potassium and vitamin C (when fresh).", "bn": "এটি পটাশিয়াম এবং ভিটামিন সি (টাটকা হলে) দেয়।"},
+      "line2": {"en": "But it can raise blood sugar quickly when eaten alone.", "bn": "কিন্তু একা খেলে এটি রক্তে শর্করার মাত্রা দ্রুত বাড়াতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 25, "category": "Vegetables", "image": "/images/eggplant-begun.png",
+      "name": {"en": "Eggplant", "bn": "বেগুন"},
+      "line1": {"en": "It is low in calories and has some fiber and antioxidants.", "bn": "এতে ক্যালোরি কম এবং কিছু ফাইবার ও অ্যান্টিঅক্সিডেন্ট রয়েছে।"},
+      "line2": {"en": "But it has very little protein and few minerals.", "bn": "কিন্তু এতে খুব কম প্রোটিন এবং খনিজ পদার্থ রয়েছে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 26, "category": "Vegetables", "image": "/images/pointed-gourd-potol.png",
+      "name": {"en": "Pointed gourd", "bn": "পটল"},
+      "line1": {"en": "It has a little fiber and vitamin C with very few calories.", "bn": "এতে খুব কম ক্যালোরির সাথে সামান্য ফাইবার এবং ভিটামিন সি রয়েছে।"},
+      "line2": {"en": "But it is low in protein and minerals.", "bn": "কিন্তু এতে প্রোটিন এবং খনিজ কম।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 27, "category": "Vegetables", "image": "/images/bottle-gourd-lau.png",
+      "name": {"en": "Bottle gourd", "bn": "লাউ"},
+      "line1": {"en": "It has lots of water and is very low in calories.", "bn": "এতে প্রচুর পানি আছে এবং ক্যালোরি খুব কম।"},
+      "line2": {"en": "But it has low protein and low micronutrients.", "bn": "কিন্তু এতে প্রোটিন এবং মাইক্রোনিউট্রিয়েন্ট কম।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 28, "category": "Vegetables", "image": "/images/pumpkin-mishti-kumra.png",
+      "name": {"en": "Pumpkin", "bn": "মিষ্টি কুমড়া"},
+      "line1": {"en": "It has beta-carotene for eye health and some fiber.", "bn": "এতে চোখের স্বাস্থ্যের জন্য বিটা-ক্যারোটিন এবং কিছু ফাইবার রয়েছে।"},
+      "line2": {"en": "But it adds natural sugars to your meal.", "bn": "কিন্তু এটি আপনার খাবারে প্রাকৃতিক চিনি যোগ করে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 29, "category": "Vegetables", "image": "/images/onion-peyaj.png",
+      "name": {"en": "Onion", "bn": "পেঁয়াজ"},
+      "line1": {"en": "It has prebiotic fibers and antioxidants like quercetin.", "bn": "এতে প্রিবায়োটিক ফাইবার এবং কোয়ার্সেটিনের মতো অ্যান্টিঅক্সিডেন্ট রয়েছে।"},
+      "line2": {"en": "But FODMAP sugars can cause gas for some people.", "bn": "কিন্তু FODMAP শর্করা কিছু মানুষের জন্য গ্যাস তৈরি করতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 30, "category": "Vegetables", "image": "/images/okra-dherosh.png",
+      "name": {"en": "Okra", "bn": "ঢেঁড়শ"},
+      "line1": {"en": "It has soluble fiber and vitamin C.", "bn": "এতে দ্রবণীয় ফাইবার এবং ভিটামিন সি রয়েছে।"},
+      "line2": {"en": "But it contains oxalates and gives little protein.", "bn": "কিন্তু এতে অক্সালেট রয়েছে এবং প্রোটিন কম দেয়।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 31, "category": "Leafy Greens", "image": "/images/spinach-palong-shak.png",
+      "name": {"en": "Spinach", "bn": "পালং শাক"},
+      "line1": {"en": "It gives folate, vitamin K, and vitamin A.", "bn": "এটি ফোলেট, ভিটামিন কে, এবং ভিটামিন এ সরবরাহ করে।"},
+      "line2": {"en": "But high oxalate can block some calcium and iron.", "bn": "কিন্তু উচ্চ অক্সালেট কিছু ক্যালসিয়াম এবং আয়রন শোষণ বাধা দিতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 32, "category": "Leafy Greens", "image": "/images/malabar-spinach-pui-shak.png",
+      "name": {"en": "Malabar spinach", "bn": "পুঁই শাক"},
+      "line1": {"en": "It has vitamin A and vitamin C with soft soluble fiber.", "bn": "এতে নরম দ্রবণীয় ফাইবারের সাথে ভিটামিন এ এবং ভিটামিন সি রয়েছে।"},
+      "line2": {"en": "But it also has oxalates.", "bn": "কিন্তু এতে অক্সালেটও আছে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 33, "category": "Leafy Greens", "image": "/images/amaranth-leaves-lal-shak.png",
+      "name": {"en": "Amaranth leaves", "bn": "লাল শাক"},
+      "line1": {"en": "They give iron, calcium, and vitamin A.", "bn": "এগুলো আয়রন, ক্যালসিয়াম এবং ভিটামিন এ সরবরাহ করে।"},
+      "line2": {"en": "But oxalates can reduce how much minerals you absorb.", "bn": "কিন্তু অক্সালেট আপনার খনিজ শোষণের পরিমাণ কমাতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 34, "category": "Leafy Greens", "image": "/images/water-spinach-kalmi-shak.png",
+      "name": {"en": "Water spinach", "bn": "কলমি শাক"},
+      "line1": {"en": "It is low in calories and gives some iron and vitamin A.", "bn": "এতে ক্যালোরি কম এবং কিছু আয়রন ও ভিটামিন এ সরবরাহ করে।"},
+      "line2": {"en": "But it is low in protein and many minerals.", "bn": "কিন্তু এতে প্রোটিন এবং অনেক খনিজ কম।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 35, "category": "Leafy Greens", "image": "/images/mustard-greens-shorshe-shak.png",
+      "name": {"en": "Mustard greens", "bn": "সর্ষে শাক"},
+      "line1": {"en": "They have vitamin K, vitamin A, vitamin C, and fiber.", "bn": "এগুলোতে ভিটামিন কে, ভিটামিন এ, ভিটামিন সি এবং ফাইবার রয়েছে।"},
+      "line2": {"en": "But they have goitrogens that can make iodine harder to use if you eat a lot raw.", "bn": "কিন্তু এগুলিতে গয়ট্রোজেন রয়েছে যা বেশি পরিমাণে কাঁচা খেলে আয়োডিন ব্যবহার কঠিন করে তুলতে পারে।"},
+      "line3": {"en": "Has goitrogens. Limit or avoid, especially when raw.", "bn": "গয়ট্রোজেন আছে। সীমিত পরিমাণে বা এড়িয়ে চলুন, বিশেষ করে কাঁচা অবস্থায়।"},
+      "status": {"key": "goitrogen_present"}
+    },
+    {
+      "id": 36, "category": "Leafy Greens", "image": "/images/colocasia-leaves-kochu-pata.png",
+      "name": {"en": "Colocasia leaves", "bn": "কচু পাতা"},
+      "line1": {"en": "They provide calcium, vitamin A, and fiber.", "bn": "এগুলো ক্যালসিয়াম, ভিটামিন এ এবং ফাইবার সরবরাহ করে।"},
+      "line2": {"en": "But they are very high in oxalates.", "bn": "কিন্তু এগুলিতে অক্সালেটের পরিমাণ খুব বেশি।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 37, "category": "Dairy & Eggs", "image": "/images/milk-dudh.png",
+      "name": {"en": "Milk", "bn": "দুধ"},
+      "line1": {"en": "It gives complete protein, calcium, and often iodine.", "bn": "এটি সম্পূর্ণ প্রোটিন, ক্যালসিয়াম এবং প্রায়শই আয়োডিন সরবরাহ করে।"},
+      "line2": {"en": "But lactose can upset some tummies, and calcium can affect thyroid pills if taken together.", "bn": "কিন্তু ল্যাকটোজ কিছু পেটের সমস্যা করতে পারে এবং ক্যালসিয়াম একসাথে খেলে থাইরয়েডের ওষুধকে প্রভাবিত করতে পারে।"},
+      "line3": {"en": "It's best to wait 4 hours between drinking milk and taking thyroid pills.", "bn": "দুধ পান এবং থাইরয়েডের ওষুধ খাওয়ার মধ্যে ৪ ঘন্টা অপেক্ষা করা ভাল।"},
+      "status": null
+    },
+    {
+      "id": 38, "category": "Dairy & Eggs", "image": "/images/yogurt-doi.png",
+      "name": {"en": "Yogurt", "bn": "দই"},
+      "line1": {"en": "It has protein, calcium, and helpful live cultures.", "bn": "এতে প্রোটিন, ক্যালসিয়াম এবং উপকারী জীবন্ত কালচার রয়েছে।"},
+      "line2": {"en": "But sweetened yogurt adds extra sugar.", "bn": "কিন্তু মিষ্টি দই অতিরিক্ত চিনি যোগ করে।"},
+      "line3": {"en": "It's best to wait 4 hours between eating yogurt and taking thyroid pills.", "bn": "দই খাওয়ার এবং থাইরয়েডের ওষুধ খাওয়ার মধ্যে ৪ ঘন্টা অপেক্ষা করা ভাল।"},
+      "status": null
+    },
+    {
+      "id": 39, "category": "Dairy & Eggs", "image": "/images/eggs-dim.png",
+      "name": {"en": "Eggs", "bn": "ডিম"},
+      "line1": {"en": "They give complete protein, choline, iodine, and selenium in the yolk.", "bn": "কুসুমে সম্পূর্ণ প্রোটিন, কোলিন, আয়োডিন এবং সেলেনিয়াম সরবরাহ করে।"},
+      "line2": {"en": "But they also contain dietary cholesterol.", "bn": "কিন্তু এগুলিতে ডায়েটারি কোলেস্টেরলও রয়েছে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 40, "category": "Dairy & Eggs", "image": "/images/chhana-fresh-curd-cheese.png",
+      "name": {"en": "Chhana", "bn": "ছানা"},
+      "line1": {"en": "It is rich in protein and calcium.", "bn": "এটি প্রোটিন এবং ক্যালসিয়ামে সমৃদ্ধ।"},
+      "line2": {"en": "But it usually has less iodine than milk.", "bn": "কিন্তু সাধারণত দুধের চেয়ে এতে আয়োডিন কম থাকে।"},
+      "line3": {"en": "It's best to wait 4 hours between eating chhana and taking thyroid pills.", "bn": "ছানা খাওয়ার এবং থাইরয়েডের ওষুধ খাওয়ার মধ্যে ৪ ঘন্টা অপেক্ষা করা ভাল।"},
+      "status": null
+    },
+    {
+      "id": 41, "category": "Oils & Spices", "image": "/images/mustard-oil-shorsher-tel.png",
+      "name": {"en": "Mustard oil", "bn": "সর্ষের তেল"},
+      "line1": {"en": "It has mostly unsaturated fats, including MUFA and some ALA.", "bn": "এতে বেশিরভাগই অসম্পৃক্ত ফ্যাট রয়েছে, যার মধ্যে MUFA এবং কিছু ALA অন্তর্ভুক্ত।"},
+      "line2": {"en": "But it can contain erucic acid depending on the source.", "bn": "কিন্তু উৎসের উপর নির্ভর করে এতে ইউরিক অ্যাসিড থাকতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 42, "category": "Oils & Spices", "image": "/images/turmeric-holud.png",
+      "name": {"en": "Turmeric", "bn": "হলুদ"},
+      "line1": {"en": "It has curcumin, a plant compound with antioxidant activity.", "bn": "এতে কারকিউমিন রয়েছে, যা একটি অ্যান্টিঅক্সিডেন্ট কার্যকলাপ সহ উদ্ভিদ যৌগ।"},
+      "line2": {"en": "But the body absorbs curcumin poorly on its own.", "bn": "কিন্তু শরীর নিজে থেকে কারকিউমিন ভালোভাবে শোষণ করতে পারে না।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 43, "category": "Oils & Spices", "image": "/images/cumin-jira.png",
+      "name": {"en": "Cumin", "bn": "জিরা"},
+      "line1": {"en": "It has small amounts of iron and helpful plant oils.", "bn": "এতে অল্প পরিমাণে আয়রন এবং উপকারী উদ্ভিদ তেল রয়েছে।"},
+      "line2": {"en": "But normal cooking uses tiny amounts, so nutrients are small.", "bn": "কিন্তু সাধারণ রান্নায় খুব অল্প পরিমাণে ব্যবহৃত হয়, তাই পুষ্টিগুণ কম।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 44, "category": "Oils & Spices", "image": "/images/chilies-green-dried-kacha-shukna-morich.png",
+      "name": {"en": "Chilies", "bn": "মরিচ"},
+      "line1": {"en": "They give vitamin C and capsaicin.", "bn": "এগুলো ভিটামিন সি এবং ক্যাপসাইসিন সরবরাহ করে।"},
+      "line2": {"en": "But they can irritate people who have acid reflux.", "bn": "কিন্তু যাদের অ্যাসিড রিফ্লাক্স আছে তাদের জন্য এটি জ্বালা সৃষ্টি করতে পারে।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 45, "category": "Oils & Spices", "image": "/images/coriander-leaf-seed-dhone-pata-dhone-dana.png",
+      "name": {"en": "Coriander", "bn": "ধনে"},
+      "line1": {"en": "The leaves and seeds have antioxidants and a fresh taste.", "bn": "পাতা এবং বীজে অ্যান্টিঅক্সিডেন্ট এবং একটি তাজা স্বাদ রয়েছে।"},
+      "line2": {"en": "But usual serving sizes are too small to change nutrition much.", "bn": "কিন্তু সাধারণ পরিবেশনের আকার পুষ্টিতে খুব বেশি পরিবর্তন আনার জন্য খুব ছোট।"},
+      "line3": {"en": "No effect on thyroid.", "bn": "থাইরয়েডের উপর কোন প্রভাব নেই।"},
+      "status": null
+    },
+    {
+      "id": 46, "category": "Vegetables", "image": "/images/cabbage-badhakopi.png",
+      "name": {"en": "Cabbage", "bn": "বাঁধাকপি"},
+      "line1": {"en": "It has vitamin C, vitamin K, fiber, and plant chemicals.", "bn": "এতে ভিটামিন সি, ভিটামিন কে, ফাইবার এবং উদ্ভিদ রাসায়নিক রয়েছে।"},
+      "line2": {"en": "But raw or very big amounts can make it harder for the body to use iodine.", "bn": "কিন্তু কাঁচা বা খুব বেশি পরিমাণে খেলে শরীরের জন্য আয়োডিন ব্যবহার করা কঠিন হতে পারে।"},
+      "line3": {"en": "Has goitrogens. Limit or avoid, especially when raw.", "bn": "গয়ট্রোজেন আছে। সীমিত পরিমাণে বা এড়িয়ে চলুন, বিশেষ করে কাঁচা অবস্থায়।"},
+      "status": {"key": "goitrogen_present"}
+    },
+    {
+      "id": 47, "category": "Vegetables", "image": "/images/cauliflower-fulkopi.png",
+      "name": {"en": "Cauliflower", "bn": "ফুলকপি"},
+      "line1": {"en": "It gives vitamin C, vitamin K, and fiber.", "bn": "এটি ভিটামিন সি, ভিটামিন কে এবং ফাইবার সরবরাহ করে।"},
+      "line2": {"en": "But in large raw amounts it may reduce iodine use in the body.", "bn": "কিন্তু বেশি পরিমাণে কাঁচা খেলে এটি শরীরে আয়োডিনের ব্যবহার কমাতে পারে।"},
+      "line3": {"en": "Has goitrogens. Limit or avoid, especially when raw.", "bn": "গয়ট্রোজেন আছে। সীমিত পরিমাণে বা এড়িয়ে চলুন, বিশেষ করে কাঁচা অবস্থায়।"},
+      "status": {"key": "goitrogen_present"}
+    },
+    {
+      "id": 48, "category": "Vegetables", "image": "/images/broccoli-brokoli.png",
+      "name": {"en": "Broccoli", "bn": "ব্রোকলি"},
+      "line1": {"en": "It has vitamin C, vitamin K, folate, and special plant compounds.", "bn": "এতে ভিটামিন সি, ভিটামিন কে, ফোলেট এবং বিশেষ উদ্ভিদ যৌগ রয়েছে।"},
+      "line2": {"en": "But big raw servings can act as goitrogens.", "bn": "কিন্তু বড় কাঁচা পরিবেশন গয়ট্রোজেন হিসাবে কাজ করতে পারে।"},
+      "line3": {"en": "Has goitrogens. Limit or avoid, especially when raw.", "bn": "গয়ট্রোজেন আছে। সীমিত পরিমাণে বা এড়িয়ে চলুন, বিশেষ করে কাঁচা অবস্থায়।"},
+      "status": {"key": "goitrogen_present"}
+    },
+    {
+      "id": 49, "category": "Vegetables", "image": "/images/radish-mula.png",
+      "name": {"en": "Radish", "bn": "মূলা"},
+      "line1": {"en": "It has vitamin C, potassium, and fiber.", "bn": "এতে ভিটামিন সি, পটাশিয়াম এবং ফাইবার রয়েছে।"},
+      "line2": {"en": "But large raw amounts can make goitrogen compounds.", "bn": "কিন্তু বড় কাঁচা পরিমাণে গয়ট্রোজেন যৌগ তৈরি করতে পারে।"},
+      "line3": {"en": "Has goitrogens. Limit or avoid, especially when raw.", "bn": "গয়ট্রোজেন আছে। সীমিত পরিমাণে বা এড়িয়ে চলুন, বিশেষ করে কাঁচা অবস্থায়।"},
+      "status": {"key": "goitrogen_present"}
+    },
+    {
+      "id": 50, "category": "Grains", "image": "/images/millet-bajra-kangni.png",
+      "name": {"en": "Millet", "bn": "বাজরা"},
+      "line1": {"en": "It is a whole grain with fiber, magnesium, and B-vitamins.", "bn": "এটি ফাইবার, ম্যাগনেসিয়াম এবং বি-ভিটামিন সহ একটি সম্পূর্ণ শস্য।"},
+      "line2": {"en": "But high millet intake with low iodine can slow thyroid activity.", "bn": "কিন্তু কম আয়োডিনের সাথে উচ্চ মিলেট গ্রহণ থাইরয়েডের কার্যকলাপকে ধীর করে দিতে পারে।"},
+      "line3": {"en": "Has goitrogens. Limit intake, especially if iodine deficient.", "bn": "গয়ট্রোজেন আছে। গ্রহণ সীমিত করুন, বিশেষ করে যদি আয়োডিনের অভাব থাকে।"},
+      "status": {"key": "goitrogen_present"}
+    },
+    {
+      "id": 51, "category": "Soy & Alternatives", "image": "/images/tofu-tofu.png",
+      "name": {"en": "Tofu", "bn": "টোফু"},
+      "line1": {"en": "It gives plant protein and sometimes calcium if calcium-set.", "bn": "এটি উদ্ভিদ প্রোটিন এবং কখনও কখনও ক্যালসিয়াম-সেট হলে ক্যালসিয়াম দেয়।"},
+      "line2": {"en": "But soy can lower thyroid pill absorption if eaten at the same time.", "bn": "কিন্তু একই সময়ে খেলে সয়া থাইরয়েডের ওষুধের শোষণ ক্ষমতা কমাতে পারে।"},
+      "line3": {"en": "It's best to wait 4 hours between eating soy and taking thyroid pills.", "bn": "সয়া খাওয়ার এবং থাইরয়েডের ওষুধ খাওয়ার মধ্যে ৪ ঘন্টা অপেক্ষা করা ভাল।"},
+      "status": null
+    },
+    {
+      "id": 52, "category": "Soy & Alternatives", "image": "/images/soy-milk-soyadudh.png",
+      "name": {"en": "Soy milk", "bn": "সয়া দুধ"},
+      "line1": {"en": "It provides plant protein and is often calcium-fortified.", "bn": "এটি উদ্ভিদ প্রোটিন সরবরাহ করে এবং প্রায়শই ক্যালসিয়াম-ফোর্টিফাইড থাকে।"},
+      "line2": {"en": "But it usually has little iodine unless it is fortified.", "bn": "কিন্তু ফোর্টিফাইড না হলে সাধারণত এতে আয়োডিন কম থাকে।"},
+      "line3": {"en": "It's best to wait 4 hours between eating soy and taking thyroid pills.", "bn": "সয়া খাওয়ার এবং থাইরয়েডের ওষুধ খাওয়ার মধ্যে ৪ ঘন্টা অপেক্ষা করা ভাল।"},
+      "status": null
+    }
+  ]
+}
